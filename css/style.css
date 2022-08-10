@@ -36,6 +36,7 @@ a:focus {
 
 .container-fluid {
   max-width: 1366px;
+  margin-top: 0%;
 }
 
 .btn {
@@ -481,7 +482,7 @@ a:focus {
 .about {
   position: relative;
   width: 100%;
-  margin: -45px 0 45px 0;
+  margin: -15px 0 45px 0;
 }
 
 .about .col-lg-6 {
@@ -559,7 +560,7 @@ a:focus {
 /*******************************/
 .experience {
   position: relative;
-  padding: 45px 0 15px 0;
+  padding: 5px 0 0px 0;
 }
 
 .experience .timeline {
@@ -735,7 +736,7 @@ a:focus {
 .service {
   position: relative;
   width: 100%;
-  padding: 45px 0 15px 0;
+  padding: 5px 0 15px 0;
 }
 
 .service .service-item {
@@ -1309,8 +1310,9 @@ a:focus {
 }
 
 .contact .container-fluid {
-  background: url(../img/contact.jpg) left center no-repeat;
+  background: url(../img/Riya\ 2.png) left center no-repeat;
   background-size: contain;
+  margin-top: 0%;
 }
 
 .contact .contact-form {
@@ -1482,11 +1484,14 @@ a:focus {
   color: #ffffff;
 }
 
-.footer .footer-info h3 {
+.footer .footer-info a {
   margin-bottom: 25px;
   font-size: 22px;
   font-weight: 600;
   color: #ffffff;
+}
+.footer .footer-info a:hover{
+  color: #414141;
 }
 
 .footer .footer-menu {
@@ -1510,7 +1515,7 @@ a:focus {
 
 .footer .footer-social {
   position: relative;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .footer .footer-social a {
@@ -1535,8 +1540,8 @@ a:focus {
 .footer .copyright {
   position: relative;
   text-align: center;
-  margin-top: 30px;
-  padding-top: 25px;
+  margin-top: 0px;
+  padding-top: 5px;
   padding-bottom: 25px;
 }
 
