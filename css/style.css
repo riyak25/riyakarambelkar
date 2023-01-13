@@ -567,6 +567,9 @@ a:focus {
   position: relative;
   width: 100%;
 }
+.experience .timeline .timeline-text a:hover{
+  color: #b174ebf2;
+}
 
 .experience .timeline::after {
   content: "";
